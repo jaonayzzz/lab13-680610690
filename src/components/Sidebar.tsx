@@ -10,11 +10,11 @@ export default function Sidebar({ userName, type }: SidebarProps) {
     >
       <div className="flex-grow-1">
         <nav className="navbar align-items-start flex-column">
-          <h3 className="navbar-brand">Todo List App</h3>
+          <h3 className="navbar-brand">🌸Todo List App</h3>
           <ul className="navbar-nav">
             <li className="nav-item">
               <Link className="nav-link active" aria-current="page" to={"/"}>
-                <span className="d-md-inline px-2">Home</span>
+                <span className="d-md-inline px-2">🌠 Home</span>
               </Link>
             </li>
             <li className="nav-item dropdown">
@@ -24,7 +24,7 @@ export default function Sidebar({ userName, type }: SidebarProps) {
                 data-bs-toggle="dropdown"
                 aria-expanded="false"
               >
-                <span className="d-md-inline px-2">MY Stuffs</span>
+                <span className="d-md-inline px-2">✅MY Stuffs</span>
               </a>
               <ul className="dropdown-menu">
                 <li>
